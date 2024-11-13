@@ -1,0 +1,85 @@
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/	  
+/*HEADER COMMON TO ALL PAGES POSITION & DETAILS*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/	
+
+* {
+    padding:0;
+    margin: 20;
+    margin-left: 20;
+    box-sizing: border-box;
+}
+
+.icon-cog {
+    color: rgb(63,72,204);
+}
+
+.fa-cog {
+    color: rgb(63,72,204);
+}
+
+.fa {
+    color: rgb(63,72,204)
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 60px;
+    position: relative;
+    z-index: 100;
+    }
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding-top:  20px;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:rgb(63,72,204);
+}
+
+nav ul li a:hover {
+    border: 5px;
+    background-color: rgb(233, 202, 22);
+    border-radius: 5px;
+ 
+}
+
+.text-box {
+    margin: 130px;
+    max-width: 1000px;
+    text-align: justify;
+}
+
+.text-box h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: darkslategray;
+}
+
+.text-box a {
+    display: inline-block;
+    text-decoration: none;
+    color: darkslategray;
+    background: rgb(233, 202, 22);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    }
+
+.text-box a:hover {
+    background-color: rgb(63,72,204);
+    color: aliceblue;
+}
+
