@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" type="x-icon" href="emblem2.PNG"> <!--https://www.w3schools.com/howto/howto_css_parallax.asp -->
+    <link rel="shortcut icon" type="x-icon" href="emblem2.PNG"> <!--how to set an icon to broweser https://www.youtube.com/watch?v=HtXjhEwf32I -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="descriptiom"
         content="Compliance training and compliance support for brokers in the financial services industry">
     <meta name="keywords"
         content="compliance solutions. compliance training. compliance audit. compliance support. compliance admin. compliance administration. compliance process. compliance procedures">
-    <title>Comsol about page meet the team</title>
+    <title>Comsol feedback page</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -44,80 +44,87 @@
     </div>
 </header>
 
-
 <body>
-
-    <div class="about-section" id="section1">
-        <video id="background-video" autoplay loop muted poster="..//Joanna_Sarsfield_CA2/images/seahero.jpg">
-            <source src="../joanna_sarsfield_ca2/images/seavid.mp4" type="video/mp4">
-          </video>
-        <h1>About US</h1>
-    </div>
-
-    <div class="content-section">
-        <h3>The team here at ComSol are dedicated to making understanding compliance more accessible and to help ensure your firm is meeting is obligations.</h3>
+    <div class="feedback-main">
+        <h1>Feedback Form</h1>
         <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, accusamus!
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum nisi omnis vitae, nemo eligendi
-        consequuntur temporibus. Perspiciatis fuga numquam incidunt non possimus minima. Tenetur, mollitia
-        veniam dolores autem officiis delectus?
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sunt temporibus modi, labore ad accusamus 
-        accusantium tempore rem nihil dicta cum, excepturi obcaecati nisi ex eveniet dolores incidunt quam sequi. 
+        <form id="feedback-form">
+            <label for="name"><strong>Name:</strong></label>
+            <input type="text" id="name" name="name" placeholder="Please enter your name" required>
 
-        </p>
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" id="email" name="email" placeholder="Please enter your email" required>
+
+            <label for="rating"><strong>How would you rate our website from 1(poor) to 5(great):</strong></label>
+            <input type="number" id="age" name="age" min="1" max="5" placeholder="5">
+
+            <label for="feedback-type"><strong>Type of Feedback:</strong></label>
+            <select id="feedback-type" name="feedback-type">
+                <option value="positive">Positive</option>
+                <option value="negative">Negative</option>
+                <option value="suggestion">Suggestion</option>
+            </select>
+            <br>
+            <fieldset>
+                <legend>Which service did you receive from us:</legend>
+                <br>
+                <input type="checkbox" id="Training" name="services" value="Training" >
+                <label for="service1">Training</label><br>
+                <input type="checkbox" id="Audit" name="services" value="Audit">
+                <label for="service2">Audit</label><br>
+                <input type="checkbox" id="Event" name="services" value="Event">
+                <label for="service3">Event</label>
+
+            </fieldset>
+
+            <br>
+            <label for="comments"><strong>Any additional Comments:</strong></label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+            <br>
+            <button type="submit">Submit Feedback</button>
+        </form>
     </div>
 
-    <div class="about-section" id="section2">
-        <h1>Founder and CEO</h1>
+<div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">
+        <div class="inner">❅</div>
     </div>
-
-    <div class="content-section">
-        <h3>Joanna has Masters Degree, is a Qualified Financial Adviser (QFA), a Certifiied Financial Planner (CFP) and a certified Compliance Officer, Licentiate of Compliance Institute (LCOI) </h3>
-        <br>
-        <p>Joanna has been working in the Financial Services industry in Ireland since 2006 when she joined xxx Insurance and worked specifically in compliance for the ten years. She set up ComSol in 2024. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi explicabo magnam velit perspiciatis laboriosam atque blanditiis eveniet fugiat maiores iste, consectetur ratione. Aperiam velit fugiat tempora repellat aut saepe. Nisi!</p>
+    <div class="snowflake">
+        <div class="inner">❅</div>
     </div>
-
-    <div class="snowflakes" aria-hidden="true">
-        <div class="snowflake">
-            <div class="inner">❅</div>
-        </div>
-        <div class="snowflake">
-            <div class="inner">❅</div>
-        </div>
-        <div class="snowflake">
-            <div class="inner">❅</div>
-        </div>
-        <div class="snowflake">
-            <div class="inner">❅</div>
-        </div>
-        <div class="snowflake">
-            <div class="inner">❅</div>
-        </div>
-        <div class="snowflake">
-            <div class="inner">❅</div>
-        </div>
-        <div class="snowflake">
-            <div class="inner">❅</div>
-        </div>
-        <div class="snowflake">
-            <div class="inner">❅</div>
-        </div>
-        <div class="snowflake">
-            <div class="inner">❅</div>
-        </div>
-        <div class="snowflake">
-            <div class="inner">❅</div>
-        </div>
-        <div class="snowflake">
-            <div class="inner">❅</div>
-        </div>
-        <div class="snowflake">
-            <div class="inner">❅</div>
-        </div>
+    <div class="snowflake">
+        <div class="inner">❅</div>
     </div>
+    <div class="snowflake">
+        <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+        <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+        <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+        <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+        <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+        <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+        <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+        <div class="inner">❅</div>
+    </div>
+    <div class="snowflake">
+        <div class="inner">❅</div>
+    </div>
+</div>
 
-
+</body>
 
 <footer>
     <div class="footer-container">
@@ -159,5 +166,4 @@
     </div>
 
 </footer>
-</body>
 </html>
